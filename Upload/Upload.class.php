@@ -266,7 +266,7 @@ class Upload
      *
      * @return   float
      */
-    private function get_maximum_file_size() : float
+    public function get_maximum_file_size() : float
     {
         $post_max_size = $this->str_to_bytes( ini_get('post_max_size') );
         $upload_max_filesize = $this->str_to_bytes( ini_get('upload_max_filesize') );
