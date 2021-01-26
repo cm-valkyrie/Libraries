@@ -1,6 +1,7 @@
 # Mailer para Valkyrie Platform
 
 ###Use
+
 Copy the repository to the libraries folder.
 You can use in controller or model.
 
