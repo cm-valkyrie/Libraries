@@ -1,6 +1,6 @@
 # Mailer para Valkyrie Platform
 
-###Use
+### Use
 
 Copy the repository to the libraries folder.
 You can use in controller or model.
@@ -22,4 +22,4 @@ You can use in controller or model.
 		echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
 	}
 
-###End
+### End
